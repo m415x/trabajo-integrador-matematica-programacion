@@ -29,30 +29,33 @@ _Código fuente:_
 
 _Inteligencia Artificial:_
 
-Consultamos a la inteligencia artificial como hacer para que en la terminal cada línea que se este ejecutando se sobrescriba la línea anterior.
+- Consultamos como hacer para que en la terminal cada línea que se este ejecutando se sobrescriba la línea anterior.
 
-1. \r (Retorno de Carro):
-   Este carácter mueve el cursor al principio de la línea actual, sin avanzar a la siguiente.
+  1. \r (Retorno de Carro):
+     Este carácter mueve el cursor al principio de la línea actual, sin avanzar a la siguiente.
 
-1. print(..., end=''):
-   Normalmente, print() agrega un salto de línea al final. end='' le dice a print() que no agregue un salto de línea, permitiendo que el texto se imprima en la misma línea.
+  2. print(..., end=''):
+     Normalmente, print() agrega un salto de línea al final. end='' le dice a print() que no agregue un salto de línea, permitiendo que el texto se imprima en la misma línea.
 
-1. Combinación:
-   Al imprimir con \r y end='', el texto se sobrescribe en la misma línea, como si estuvieras borrando y escribiendo de nuevo.
+  3. Combinación:
+     Al imprimir con \r y end='', el texto se sobrescribe en la misma línea, como si estuvieras borrando y escribiendo de nuevo.
 
 ```python
 import time
 
 for i in range(5):
-    print('\rProcesando... %d' % i, end='') # Imprime la actualización en la misma línea
-    time.sleep(1)
+   print('\rProcesando... %d' % i, end='') # Imprime la actualización en la misma línea
+   time.sleep(1)
 
 print('\rProcesamiento completado!') # Imprime la frase final y se desplaza al final de la línea
 ```
 
+- Consultamos como hacer para imprimir textos en diferentes colores con el módulo colorama.
+
 _Importaciones:_
 
-Módulo time.sleep(seg) suspende la ejecución del hilo que lo invoca por el número de segundos dado. El argumento puede ser un número de punto flotante para indicar un tiempo de suspensión más preciso. El tiempo de suspensión real puede ser menor que el solicitado porque cualquier señal detectada terminará la función sleep() siguiendo la rutina de captura de la señal. El tiempo de suspensión también puede ser más largo que el solicitado por una cantidad arbitraria debido a la planificación de otra actividad en el sistema.
+- Módulo **time** función _sleep(seg)_ suspende la ejecución del hilo que lo invoca por el número de segundos dado. El argumento puede ser un número de punto flotante para indicar un tiempo de suspensión más preciso. El tiempo de suspensión real puede ser menor que el solicitado porque cualquier señal detectada terminará la función sleep() siguiendo la rutina de captura de la señal. El tiempo de suspensión también puede ser más largo que el solicitado por una cantidad arbitraria debido a la planificación de otra actividad en el sistema.
+- Modulo **colorama** permite imprimir textos en colores en la salida de la terminal o consola, incluyendo el fondo o estilo del texto, en múltiples plataformas. En la mayoría de las terminales el módulo utiliza internamente las secuencias de escape ANSI o bien las funciones de la API del sistema en Windows para obtener el mismo resultado.
 
 _Implementaciones:_
 
