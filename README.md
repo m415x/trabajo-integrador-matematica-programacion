@@ -32,7 +32,7 @@ Para resolver el problema utilizamos los siguientes conceptos de programación:
 
 - Usamos un ciclo **for** que recorre automáticamente los números del 0 al 15.
 - Aplicamos la función **bin()** de Python para obtener la representación binaria de cada número.
-- Usamos el método **zfill(4)** para asegurarnos de que todos los números binarios tengan 4 dígitos, simulando así un contador binario de 4 bits. <span style="color:red;">(esto podríamos poner que lo buscamos con IA)</span>
+- Usamos el método **zfill(4)** para asegurarnos de que todos los números binarios tengan 4 dígitos, simulando así un contador binario de 4 bits. (esto podríamos poner que lo buscamos con IA)
 - Incorporamos la función **time.sleep(1)** para generar un retardo de 1 segundo entre cada número, simulando el ritmo de conteo de un circuito electrónico.
 - Validamos que el conteo se mantenga dentro del rango de 0 a 15, cumpliendo con la consigna del ejercicio.
 - Incluimos una pequeña mejora opcional que permite elegir si el conteo se realiza de forma ascendente (0 a 15) o descendente (15 a 0), manteniendo siempre el límite definido.
