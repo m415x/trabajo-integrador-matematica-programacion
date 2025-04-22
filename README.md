@@ -1,24 +1,46 @@
-# Trabajo Integrador 1
+# Tecnicatura Universitaria en Programación - UTN
 
-Articulación de las asignaturas Matemática y Programación 1
+## Trabajo Práctico Integrador N° 1
+
+Integración de las asignaturas Matemática y Programación 1. 
 
 ## Integrantes
 
+- Lagos Alejandro  
+- Lahoz Cristian Daniel  
+- Maldonado Ariana  
+- Mubilla Yanela  
 - Ramallo Gerónimo Gastón
-- Lahoz Cristian Daniel
-- Lagos Alejandro
-- Maldonado Ariana
-- Mubilla Yanela
+  
+Comisión: N° 8
 
-## Descripción
+## Descripción de la Actividad 
 
-Escribimos un programa que cuenta desde 0 hasta 15 y a su vez mostramos cada número en su representación binaria.
+**Actividad:** Contador Binario
 
-Entradas: Para este problema no requerimos entradas ya que contamos con una cantidad exacta de números en este caso 15.
+**Consigna:**  
+Escribimos un programa que, usando un ciclo, cuenta desde 0 hasta 15 y muestra cada número en su representación binaria.  
+Como extensión, utilizamos un retardo con `time.sleep()` para simular el conteo de un circuito digital.
 
-Resolución del problema:
+## Información de Entrada
 
-Información de salida:
+Para este problema no requerimos entradas por parte del usuario, ya que el programa cuenta de manera automática desde 0 hasta 15, que es un rango fijo definido en la consigna.
+
+## Resolución del problema
+
+Para resolver el problema utilizamos los siguientes conceptos de programación:
+
+- Utilizamos un ciclo **for** que recorre automáticamente los números del 0 al 15.
+- Aplicamos la función **bin()**` de Python para obtener la representación binaria de cada número.
+- Usamos el método **zfill(4)** para asegurarnos de que todos los números binarios tengan 4 dígitos, simulando así un contador binario de 4 bits.
+- Incorporamos la función **time.sleep(1)** para generar un retardo de 1 segundo entre cada número, simulando el ritmo de conteo de un circuito electrónico.
+- Validamos que el conteo se mantenga dentro del rango de 0 a 15, cumpliendo con la consigna del ejercicio.
+- Incluimos una pequeña mejora opcional que permite elegir si el conteo se realiza de forma ascendente (0 a 15) o descendente (15 a 0), manteniendo siempre el límite definido.
+
+## Información de Salida
+
+El programa imprime por pantalla cada número en su representación binaria de 4 bits, de forma secuencial desde 0000 (que representa el 0) hasta 1111 (que representa el 15).  
+Cada número se muestra con una pausa de un segundo entre uno y otro, lo que permite visualizar claramente el conteo en tiempo real.
 
 Link del video:
 
