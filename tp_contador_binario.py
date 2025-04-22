@@ -12,8 +12,7 @@ def contador_binario():
         time.sleep(1)                # pausa de 1 segundo entre cada impresión, para mostrar cada número con intervalo.
 
 contador_binario()                   # llamada a la función para ejecutar el contador.
-
-"""
+______________________________________________________________________________________________________________________________________________________________________
 
 # JUSTIFICACIÓN
 import time                # se importa el módulo time, que contiene funciones relacionadas con el tiempo.
@@ -40,4 +39,3 @@ time.sleep(1)              # la función time.sleep(1) hace una pausa de 1 segun
 
 contador_binario()         # finalmente, se llama a la función contador_binario() para ejecutar el código que hemos definido. 
                            # esto iniciará el proceso de contar del 0 al 15 en binario, mostrando cada número con un retraso de 1 segundo entre cada uno.
-"""
