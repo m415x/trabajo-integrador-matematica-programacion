@@ -29,7 +29,7 @@ def bienvenida():
         Back.WHITE  # Establece fondo blanco
         + Fore.BLACK  # Establece texto negro
         + Style.BRIGHT  # Texto en negrita
-        + " Bienvenida/o al contador binario ".upper()  # Convierte a mayúsculas
+        + " Bienvenida/o al contador numérico ".upper()  # Convierte a mayúsculas
         + Style.RESET_ALL  # Restablece los estilos
     )
 
@@ -102,25 +102,33 @@ def orden_y_rango():
     return numero, rango  # Retorna el número y el rango generado
 
 
-def contador_binario(numero, rango):
+def contador_numerico(numero, rango):
     """
-    Ejecuta el conteo mostrando números decimales y su equivalente binario.
+    Ejecuta el conteo mostrando números decimales y su equivalente en varias bases numéricas.
 
     Parámetros:
     - numero: int - Número máximo/mínimo del rango
     - rango: range - Secuencia de números a mostrar
 
     La función:
-    1. Calcula el largo máximo de las representaciones
-    2. Itera sobre el rango mostrando cada número
-    3. Formatea la salida con colores
-    4. Muestra mensaje de finalización
+    1. Pregunta si desea ver representaciones en octal y hexadecimal
+    2. Calcula los largos máximos para alineación
+    3. Itera sobre el rango mostrando cada número
+    4. Formatea la salida con colores y representación visual
     """
-    # Calcula el largo máximo del número binario
-    max_bin_len = len(bin(numero)[2:])  # [2:] para eliminar '0b' del prefijo
+    # Preguntar si desea ver otras bases
+    print("\n¿Desea ver también las representaciones en octal y hexadecimal? (si / no)")
+    mostrar_oct_hex = input("> ").lower() == "si"
 
-    # Calcula el largo máximo del número decimal
+    # Calcular anchos máximos para alinear columnas
+    max_bin_len = len(bin(numero)[2:])  # [2:] para eliminar '0b' del prefijo
     max_dec_len = len(str(numero))
+    max_oct_len = (
+        len(oct(numero)[2:]) if mostrar_oct_hex else 0
+    )  # [2:] para eliminar '0o' del prefijo
+    max_hex_len = (
+        len(hex(numero)[2:]) if mostrar_oct_hex else 0
+    )  # [2:] para eliminar '0x' del prefijo
 
     print()  # Salto de línea para mejor presentación
 
@@ -130,20 +138,40 @@ def contador_binario(numero, rango):
         binario = decimal_a_binario(dec).zfill(max_bin_len)
 
         # Formatea el número decimal con ceros a la izquierda
-        dec_str = str(dec).zfill(max_dec_len)
+        decimal = str(dec).zfill(max_dec_len)
 
-        # Llama a la función para obtener la representación de LEDs
-        leds = leds_binario(binario)
+        # Si se desea mostrar octal y hexadecimal
+        if mostrar_oct_hex:
+            # Mostrar todas las bases
+            octal = oct(dec)[2:].zfill(max_oct_len)
+            hexadecimal = hex(dec)[2:].upper().zfill(max_hex_len)
 
-        # Muestra el resultado en la misma línea (\r) con LEDs
-        print(
-            f"\r{Fore.CYAN}{dec_str}{Style.RESET_ALL} => {Fore.YELLOW}{binario}{Style.RESET_ALL}  {leds}",
-            end="",
-        )
+            # Muestra el resultado en la misma línea (\r) con colores
+            linea = (
+                f"\r{Fore.LIGHTGREEN_EX}{decimal}{Style.RESET_ALL}₁₀ | "
+                f"{Fore.LIGHTYELLOW_EX}{binario}{Style.RESET_ALL}₂ | "
+                f"{Fore.LIGHTBLUE_EX}{octal}{Style.RESET_ALL}₈ | "
+                f"{Fore.LIGHTRED_EX}{hexadecimal}{Style.RESET_ALL}₁₆"
+            )
+
+        # Si no se desea mostrar octal y hexadecimal
+        else:
+            # Llama a la función para obtener la representación de LEDs
+            leds = leds_binario(binario)
+
+            # Muestra el resultado en la misma línea (\r) con LEDs
+            linea = (
+                f"\r{Fore.LIGHTGREEN_EX}{decimal}{Style.RESET_ALL}₁₀ | "
+                f"{Fore.LIGHTYELLOW_EX}{binario}{Style.RESET_ALL}₂  {leds}"
+            )
+
+        print(linea, end="")  # Muestra el resultado
         sleep(1)  # Pausa de 1 segundo entre números
 
     # Mensaje de finalización
-    print("\n\n" + Fore.LIGHTGREEN_EX + "¡Conteo completado!".upper() + Style.RESET_ALL)
+    print(
+        "\n\n" + Fore.LIGHTMAGENTA_EX + "¡Conteo completado!".upper() + Style.RESET_ALL
+    )
 
 
 def leds_binario(binario):
@@ -154,18 +182,18 @@ def leds_binario(binario):
     - binario: str - Cadena que representa un número binario
 
     Retorna:
-    - str - Representación visual de LEDs (🟢 y ⚫)
+    - str - Representación visual de LEDs (🟡 y ⚫)
 
     Proceso:
     1. Itera sobre cada bit en la cadena binaria
-    2. Asigna un LED encendido (🟢) o apagado (⚫) según el valor del bit
+    2. Asigna un LED encendido (🟡) o apagado (⚫) según el valor del bit
     """
     leds = ""  # Cadena para almacenar los emojis de LEDs
 
     # Construye la cadena de LEDs bit por bit
     for bit in binario:
         if bit == "1":
-            leds += "🟢"  # LED encendido
+            leds += "🟡"  # LED encendido
         else:
             leds += "⚫"  # LED apagado
 
@@ -213,7 +241,7 @@ def main():
     """
     bienvenida()  # Muestra la interfaz inicial
     numero, rango = orden_y_rango()  # Obtiene configuración del usuario
-    contador_binario(numero, rango)  # Ejecuta el conteo
+    contador_numerico(numero, rango)  # Ejecuta el conteo
 
 
 # ========== Programa principal ==========
