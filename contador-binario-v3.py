@@ -45,16 +45,38 @@ def orden_y_rango():
     Si elige contar hacia atrás, se le pide que ingrese un número desde donde desea contar.
     El sentido de la cuenta se representa como 'asc' para adelante y 'desc' para atrás.
     """
-    sentido = input("> ")
 
+    while True: #Bucle para seguir preguntando hasta que ingrese asc o desc
+        sentido = input("> ").lower()
+
+        if sentido == "asc" or sentido == "desc":
+            break #Sale del while si es válido.
+        else:
+            print(Fore.RED + "ERROR: Ingresas una opción inválida" + Style.RESET_ALL)
+
+
+    #Acá ya sabemos que sentido es válido (asc o desc)
     if sentido == "asc":
         print("\nElija el número hasta donde desea contar:")
-        numero = int(input("> "))
+
+        numero_str = input("> ")
+        #Se le pide al usuario el dato de entrada hasta que sea válido.
+        while not numero_str.isdigit(): #isdigit() solo acepta n° enteros positivos.
+            print(Fore.RED + "ERROR: Debes ingresar un número entero positivo." + Style.RESET_ALL)
+            numero_str = input("> ")
+
+        numero = int(numero_str)
         rango = range(numero + 1)
 
     elif sentido == "desc":
         print("\nElija el número desde donde desea contar:")
-        numero = int(input("> "))
+
+        numero_str = input("> ")
+        while not numero_str.isdigit():
+            print(Fore.RED + "ERROR: Debes ingresar un número entero positivo." + Style.RESET_ALL)
+            numero_str = input("> ")
+
+        numero = int(numero_str)
         rango = range(numero, -1, -1)
 
     return numero, rango  # Devuelve el rango de iteración y el numero ingresado
