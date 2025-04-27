@@ -19,8 +19,8 @@ Integración de las asignaturas Matemática y Programación 1.
 **Actividad:** Contador Binario
 
 **Consigna:**  
-Escribimos un programa que, usando un ciclo, cuenta desde 0 hasta 15 y muestra cada número en su representación binaria.  
-Como extensión, utilizamos un retardo con `time.sleep()` para simular el conteo de un circuito digital.
+Escribir un programa que, usando un ciclo, cuente desde 0 hasta 15 y muestre cada número en su representación binaria.  
+Como extensión, utilizar un retardo con `time.sleep()` para simular el conteo de un circuito digital.
 
 ## Información de Entrada
 
