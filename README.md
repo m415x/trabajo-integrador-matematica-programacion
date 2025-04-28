@@ -87,6 +87,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - CapCut: Software de edición de video para recortar, agregar texto y mejorar la presentación final.
 
 **Integrantes del Equipo**
+
 <table>
   <thead>
     <tr>
@@ -98,7 +99,61 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
   </thead>
   <tbody>
     <tr>
-      <td>Laura Génesis Barboza</td>
+      <td>Lagos Alejandro</td>
+      <td><img src="<!-- Aquí agrega la URL de la imagen de Alejandro -->" alt="Foto Alejandro" width="100"></td>
+      <td><a href="<!-- Aquí agrega el enlace de LinkedIn de Alejandro -->">Lagos Alejandro</a></td>
+      <td>Analista de Datos</td>
+    </tr>
+    <tr>
+      <td>Lahoz Cristian Daniel</td>
+      <td><img src="https://media.licdn.com/dms/image/v2/D4E03AQHWUhZNJ8C_qw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1724795304271?e=1751500800&v=beta&t=VL2j_wKfQmO5MlhDAlZsGoPbDvGKovJ8FdIMrvt35F4" alt="Foto Cristian" width="100"></td>
+      <td><a href="<!https://www.linkedin.com/in/lahozcristian/">Lahoz Cristian Daniel</a></td>
+      <td>Analista de Datos</td>
+    </tr>
+    <tr>
+      <td>Tu nombre</td>
+      <td><img src="<!-- Aquí agrega tu URL de imagen -->" alt="Foto Tu Nombre" width="100"></td>
+      <td><a href="<!-- Aquí agrega tu enlace de LinkedIn -->">Tu nombre</a></td>
+      <td>Analista de Datos</td>
+    </tr>
+    <tr>
+      <td>Ariana Maldonado</td>
+      <td><img src="https://media.licdn.com/dms/image/D4D03AQHT0rUxfgAYmA/profile-displayphoto-shrink_800_800/0/1717377885375?e=1723075200&v=beta&t=JLmCbIBHmvBNMbdoTTKI-_OXlnMa4RKKv43wHZkhL_Q" alt="Foto Ariana" width="100"></td>
+      <td><a href="https://www.linkedin.com/in/ariana-maldonado/">Ariana Maldonado</a></td>
+      <td>Analista de Datos</td>
+    </tr>
+    <tr>
+      <td>Yanela Mubilla</td>
+      <td><img src="https://media.licdn.com/dms/image/v2/D4D03AQHihWsPc19THw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730723695846?e=1751500800&v=beta&t=MpmBxO55WgjRoagnGVWPyoWD3WjylKQpXTzULaTI0Kw" alt="Foto Yanela" width="100"></td>
+      <td><a href="https://www.linkedin.com/in/yanela-mubilla-683aa3336/">Yanela Mubilla</a></td>
+      <td>Analista de Datos</td>
+    </tr>
+    <tr>
+      <td>Ramallo Gerónimo Gastón</td>
+      <td><img src="<https://media.licdn.com/dms/image/v2/D4D35AQG3EAmDC01g-w/profile-framedphoto-shrink_200_200/B4DZVDjgdqHIAg-/0/1740595136676?e=1746414000&v=beta&t=kED8UTrW4jFhUSuO1LM-hJFob60WEWSPEhrChb74if0" alt="Foto Gerónimo" width="100"></td>
+      <td><a href="<https://www.linkedin.com/in/geronimo-ramallo/">Ramallo Gerónimo Gastón</a></td>
+      <td>Analista de Datos</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+
+
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Foto</th>
+      <th>LinkedIn</th>
+      <th>Rol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Yanela Mubilla </td>
       <td><img src="https://media.licdn.com/dms/image/v2/D4D03AQHihWsPc19THw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730723695846?e=1751500800&v=beta&t=MpmBxO55WgjRoagnGVWPyoWD3WjylKQpXTzULaTI0Kw" alt="Foto Yanela" width="100"></td>
       <td><a href="https://www.linkedin.com/in/yanela-mubilla-683aa3336/</a></td>
       <td>Analista de Datos</td>
