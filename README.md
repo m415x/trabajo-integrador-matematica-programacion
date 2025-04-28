@@ -2,8 +2,6 @@
 
 ## Trabajo Práctico Integrador N° 1
 Integración de las asignaturas Matemática y Programación 1. 
-  
-**Comisión:** N° 8
 
 ## Descripción de la Actividad 
 **Actividad:** Contador Binario en Python 
@@ -95,7 +93,9 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - Zoom: Herramienta auxiliar para grabar pantalla o compartir explicaciones en vivo.
 - CapCut: Software de edición de video para recortar, agregar texto y mejorar la presentación final.
 
-**Integrantes del Equipo**
+**Integrantes del Equipo** -   
+**Comisión:** N° 8
+
 <table border="1">
   <thead>
     <tr>
