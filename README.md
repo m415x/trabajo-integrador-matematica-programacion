@@ -144,10 +144,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 
 ____________________________________________________________________________
 
-_Código fuente:_
 
-- Bien indentado, comentado y legible.
-- Incluir todo el código que se utilizó para resolver el problema planteado.
 
 _Inteligencia Artificial:_
 
@@ -179,12 +176,3 @@ _Importaciones:_
 - Módulo **time** función _sleep(seg)_ suspende la ejecución del hilo que lo invoca por el número de segundos dado. El argumento puede ser un número de punto flotante para indicar un tiempo de suspensión más preciso. El tiempo de suspensión real puede ser menor que el solicitado porque cualquier señal detectada terminará la función sleep() siguiendo la rutina de captura de la señal. El tiempo de suspensión también puede ser más largo que el solicitado por una cantidad arbitraria debido a la planificación de otra actividad en el sistema.
 - Modulo **colorama** permite imprimir textos en colores en la salida de la terminal o consola, incluyendo el fondo o estilo del texto, en múltiples plataformas. En la mayoría de las terminales el módulo utiliza internamente las secuencias de escape ANSI o bien las funciones de la API del sistema en Windows para obtener el mismo resultado.
 
-_Implementaciones:_
-
-- Implementamos la opción de dar a elegir al usuario hasta que numero se desee convertir a binario o sea desde 0 hasta n cantidad de números y en el caso de que no se ingrese nada cuente por defecto desde 0 hasta 15.
-
-_A tener en cuenta:_
-- Integrar los conceptos matemáticos de las dos primeras unidades vistas hasta ahora (Álgebra de Boole y Sistema binario).
-- Utilizar solo los contenidos de Programación trabajados hasta el momento.
-- Mostrar una aplicación práctica de los saberes y el trabajo colaborativo realizado.
-- Reflejar, si corresponde, el uso de IA.
