@@ -1,11 +1,9 @@
 # Tecnicatura Universitaria en Programación - UTN
 
 ## Trabajo Práctico Integrador N° 1
-
 Integración de las asignaturas Matemática y Programación 1. 
 
 ## Integrantes
-
 - Lagos Alejandro  
 - Lahoz Cristian Daniel  
 - Maldonado Ariana  
@@ -15,34 +13,75 @@ Integración de las asignaturas Matemática y Programación 1.
 **Comisión:** N° 8
 
 ## Descripción de la Actividad 
+**Actividad:** Contador Binario en Python 
 
-**Actividad:** Contador Binario
-
-**Consigna:**  
-Escribir un programa que, usando un ciclo, cuente desde 0 hasta 15 y muestre cada número en su representación binaria.  
-Como extensión, utilizar un retardo con `time.sleep()` para simular el conteo de un circuito digital.
+🟢 **Versión Original: Contador Binario**
+ **Consigna:**  
+Escribir un programa que, usando un ciclo, cuente desde 0 hasta 15 y muestre cada número en su representación binaria.
+Como extensión, se debe incluir un retardo (por ejemplo, con time.sleep) para simular el funcionamiento de un circuito real.
 
 ## Información de Entrada
-
-Para este problema no requerimos entradas por parte del usuario, ya que el programa cuenta de manera automática desde 0 hasta 15, que es un rango fijo definido en la consigna.
+Esta versión no requiere entradas por parte del usuario. El programa cuenta automáticamente desde 0 hasta 15, un rango fijo definido en la consigna.
 
 ## Resolución del problema
-
-Para resolver el problema utilizamos los siguientes conceptos de programación:
-
-- Usamos un ciclo **for** que recorre automáticamente los números del 0 al 15.
-- Aplicamos la función **bin()** de Python para obtener la representación binaria de cada número.
-- Usamos el método **zfill(4)** para asegurarnos de que todos los números binarios tengan 4 dígitos, simulando así un contador binario de 4 bits. (esto podríamos poner que lo buscamos con IA)
-- Incorporamos la función **time.sleep(1)** para generar un retardo de 1 segundo entre cada número, simulando el ritmo de conteo de un circuito electrónico.
-- Validamos que el conteo se mantenga dentro del rango de 0 a 15, cumpliendo con la consigna del ejercicio.
-- Incluimos una pequeña mejora opcional que permite elegir si el conteo se realiza de forma ascendente (0 a 15) o descendente (15 a 0), manteniendo siempre el límite definido.
+Para resolver este ejercicio se utilizaron los siguientes conceptos de programación:
+- Se emplea un ciclo **for** para recorrer automáticamente los números del 0 al 15.
+- Se usa la función **bin()** de Python para obtener la representación binaria de cada número.
+- Aplicamos el método **.zfill(4)** (sugerido tras investigar con IA) para asegurar que cada número binario tenga exactamente 4 bits, simulando un contador binario típico.
+- Se utiliza **time.sleep(1)** para introducir un retardo de 1 segundo entre cada número, simulando el ritmo de un circuito electrónico.
+- Se valida que el conteo se mantenga dentro del rango de 0 a 15, respetando la consigna original.
 
 ## Información de Salida
+El programa imprime por pantalla cada número del 0 al 15 en su representación binaria de 4 bits.
+La salida se muestra de forma secuencial (ej. 0000, 0001, 0010, ..., 1111), con una pausa de 1 segundo entre cada número, para permitir visualizar el conteo en tiempo real.
 
-El programa imprime por pantalla cada número en su representación binaria de 4 bits, de forma secuencial desde 0000 (que representa el 0) hasta 1111 (que representa el 15).  
-Cada número se muestra con una pausa de un segundo entre uno y otro, lo que permite visualizar claramente el conteo en tiempo real.
+ 🎞️ Link del video:
 
-Link del video:
+🟠 **Versión 2: Sentido de conteo + Mensaje de bienvenida**
+Esta versión incorpora una interfaz en consola que presenta un mensaje de bienvenida con colores, y permite al usuario elegir si desea contar de forma ascendente (asc) o 
+descendente (desc). También se solicita el número hasta/dese donde se desea contar. Esto hace que el programa sea más interactivo y configurable.
+
+🔴 **Versión 3: Representación tipo LED**
+En lugar de mostrar solo el número en binario, esta versión incorpora una visualización tipo LED utilizando emojis de "pelotitas". 
+       -  🟡 representa un bit encendido (1)
+       -  ⚫ representa un bit apagado (0)
+Esto simula el funcionamiento de un circuito lógico binario, donde cada bit activa o apaga una luz (como ocurre en contadores digitales reales).
+El objetivo es brindar una forma visual e intuitiva de entender cómo se representan los números en binario a nivel físico o electrónico.
+
+🔵 **Versión 4: Conversión a Octal y Hexadecimal**
+Además de mostrar la representación binaria, esta versión permite visualizar también el número en octal y hexadecimal, todo en una sola línea y con distintos colores para cada 
+sistema numérico. Esto enriquece el programa desde un punto de vista didáctico y técnico.
+
+🟣 **Versión final: Integración total**
+En esta última versión se integraron todas las funcionalidades desarrolladas en etapas anteriores, creando un único programa completo, interactivo y visualmente amigable.
+El usuario puede personalizar su experiencia eligiendo:
+- La dirección del conteo: ascendente (asc) o descendente (desc)
+- El valor inicial o final del conteo
+- Si desea visualizar el resultado:
+- Solo en binario con representación LED (emojis)
+- O en formato extendido con múltiples sistemas numéricos: decimal, binario, octal y hexadecimal
+
+Además, toda la interfaz está mejorada con colores en la consola, pausas que simulan el ritmo de un circuito real, y una salida ordenada y clara.
+Esta versión representa una síntesis de lo aprendido, combinando interacción con el usuario, lógica binaria, representación visual, y conceptos de sistemas numéricos, 
+logrando así una simulación simple pero educativa de un contador lógico digital en funcionamiento.
+
+** Herramientas Tecnológicas Utilizadas **
+Este proyecto fue desarrollado utilizando las siguientes tecnologías:
+<table> <tr> <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" 
+alt="Python Logo" /><br><b>Python</b></td> <td align="center"><img 
+src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="60" 
+alt="VSCode Logo" /><br><b>Visual Studio Code</b></td> <td align="center"><img 
+src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60" alt="Git Logo" /><br><b>Git</b></td> </tr> </table>
+
+- Python: Lenguaje de programación utilizado para construir toda la lógica del contador y sus variantes.
+- Visual Studio Code: Entorno de desarrollo usado para escribir, depurar y ejecutar el código.
+- Git: Sistema de control de versiones utilizado para gestionar el progreso del proyecto y su historial.
+
+
+
+
+
+
 
 _Código fuente:_
 
@@ -84,7 +123,6 @@ _Implementaciones:_
 - Implementamos la opción de dar a elegir al usuario hasta que numero se desee convertir a binario o sea desde 0 hasta n cantidad de números y en el caso de que no se ingrese nada cuente por defecto desde 0 hasta 15.
 
 _A tener en cuenta:_
-
 - Integrar los conceptos matemáticos de las dos primeras unidades vistas hasta ahora (Álgebra de Boole y Sistema binario).
 - Utilizar solo los contenidos de Programación trabajados hasta el momento.
 - Mostrar una aplicación práctica de los saberes y el trabajo colaborativo realizado.
