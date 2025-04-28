@@ -2,13 +2,6 @@
 
 ## Trabajo Práctico Integrador N° 1
 Integración de las asignaturas Matemática y Programación 1. 
-
-## Integrantes
-- Lagos Alejandro  
-- Lahoz Cristian Daniel  
-- Maldonado Ariana  
-- Mubilla Yanela  
-- Ramallo Gerónimo Gastón
   
 **Comisión:** N° 8
 
@@ -67,7 +60,8 @@ Además, toda la interfaz está mejorada con colores en la consola, pausas que s
 Esta versión representa una síntesis de lo aprendido, combinando interacción con el usuario, lógica binaria, representación visual, y conceptos de sistemas numéricos, 
 logrando así una simulación simple pero educativa de un contador lógico digital en funcionamiento.
 
-**Herramientas Tecnológicas Utilizadas**
+**Herramientas Tecnológicas Utilizadas**    
+
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 <table> <tr> <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" 
 alt="Python Logo" /><br><b>Python</b></td> <td align="center"><img 
@@ -102,7 +96,6 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - CapCut: Software de edición de video para recortar, agregar texto y mejorar la presentación final.
 
 **Integrantes del Equipo**
-<h2>Integrantes del Equipo</h2>
 <table border="1">
   <thead>
     <tr>
@@ -140,9 +133,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
   </tbody>
 </table>
 
-
-
-
+____________________________________________________________________________
 
 _Código fuente:_
 
