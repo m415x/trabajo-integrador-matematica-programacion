@@ -83,15 +83,15 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 <table>
   <tr>
     <td align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/OBS_Studio_Logo.svg" width="60" alt="OBS Logo" /><br>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSWg8QTVqtsX8NyFySoTkrQj7FrbfvZNib8w&s" width="60" alt="OBS Logo" /><br>
       <b>OBS Studio</b>
     </td>
     <td align="center">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Zoom_Communications_Logo.svg" width="60" alt="Zoom Logo" /><br>
+      <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/11/05/b0/1105b015-f3b0-a9a3-b4d4-0ed9d9e9ef4c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/1200x630wa.png" width="60" alt="Zoom Logo" /><br>
       <b>Zoom</b>
     </td>
     <td align="center">
-      <img src="https://seeklogo.com/images/C/capcut-logo-0D90F6CE4E-seeklogo.com.png" width="60" alt="CapCut Logo" /><br>
+      <img src="https://cdn.worldvectorlogo.com/logos/capcut-logo-vector.svg" width="60" alt="CapCut Logo" /><br>
       <b>CapCut</b>
     </td>
   </tr>
