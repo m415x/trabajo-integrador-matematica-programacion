@@ -29,7 +29,8 @@ Para resolver este ejercicio se utilizaron los siguientes conceptos de programac
 El programa imprime por pantalla cada número del 0 al 15 en su representación binaria de 4 bits.
 La salida se muestra de forma secuencial (ej. 0000, 0001, 0010, ..., 1111), con una pausa de 1 segundo entre cada número, para permitir visualizar el conteo en tiempo real.
 
- 🎞️ Link del video:
+## Presentación del Proyecto en YouTube
+ 🎞️ Link del video: https://www.youtube.com/watch?v=kNnzmHkZLsA
 
 ## 🟠 Versión 2: Sentido de conteo + Mensaje de bienvenida
 
