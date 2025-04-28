@@ -99,8 +99,8 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
   <tbody>
     <tr>
       <td>Lagos Alejandro</td>
-      <td><img src="<!-- Aquí agrega la URL de la imagen de Alejandro -->" alt="Foto Alejandro" width="100"></td>
-      <td><a href="<!-- Aquí agrega el enlace de LinkedIn de Alejandro -->">Lagos Alejandro</a></td>
+      <td><img src="https://media.licdn.com/dms/image/v2/D4D03AQFV1azd5VG4vQ/profile-displayphoto-shrink_200_200/B4DZZ6JuBhGgAY-/0/1745806095683?e=1751500800&v=beta&t=9aeYHUos_ZA5ZV9sCC0fKPzStW2adSqjfbxve1eQTZI" alt="Foto Alejandro" width="100"></td>
+      <td><a href="https://www.linkedin.com/in/alejandro-lagos-8a8633197/">Lagos Alejandro</a></td>
     </tr>
     <tr>
       <td>Lahoz Cristian Daniel</td>
