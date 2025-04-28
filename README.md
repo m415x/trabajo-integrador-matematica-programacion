@@ -4,7 +4,7 @@
 Integración de las asignaturas Matemática y Programación 1. 
 
 ## Descripción de la Actividad 
-**Actividad:** Contador Binario en Python 
+Contador Binario en Python 
 
 🟢 **Versión Original: Contador Binario**   
 
