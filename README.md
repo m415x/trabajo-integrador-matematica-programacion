@@ -20,7 +20,7 @@ Esta versión no requiere entradas por parte del usuario. El programa cuenta aut
 Para resolver este ejercicio se utilizaron los siguientes conceptos de programación:
 - Se emplea un ciclo **for** para recorrer automáticamente los números del 0 al 15.
 - Se usa la función **bin()** de Python para obtener la representación binaria de cada número.
-- Aplicamos el método **.zfill(4)** (sugerido tras investigar con IA) para asegurar que cada número binario tenga exactamente 4 bits, simulando un contador binario típico.
+- Aplicamos el método **.zfill(4)** para asegurar que cada número binario tenga exactamente 4 bits, simulando un contador binario típico.
 - Se utiliza **time.sleep(1)** para introducir un retardo de 1 segundo entre cada número, simulando el ritmo de un circuito electrónico.
 - Se valida que el conteo se mantenga dentro del rango de 0 a 15, respetando la consigna original.
 
@@ -55,7 +55,7 @@ En esta última versión se integraron todas las funcionalidades desarrolladas e
 El usuario puede personalizar su experiencia eligiendo:
 - La dirección del conteo: ascendente (asc) o descendente (desc)
 - El valor inicial o final del conteo
-- Si desea visualizar el resultado:
+Si desea visualizar el resultado:
 - Solo en binario con representación LED (emojis)
 - O en formato extendido con múltiples sistemas numéricos: decimal, binario, octal y hexadecimal
 
@@ -81,6 +81,12 @@ En este proyecto, la inteligencia artificial fue utilizada para optimizar y auto
 
 3. **Uso del módulo `time` para suspender la ejecución**: Consultamos cómo suspender la ejecución de un hilo durante un período de tiempo determinado, controlando el flujo del programa y mejorando la experiencia del usuario.
    - **Función `time.sleep(seg)`**: Permite pausar la ejecución durante el número de segundos especificado, y la IA ayudó a encontrar la forma correcta de implementarlo.
+
+4. **Aplicación del método `.zfill(4)` para simular un contador binario**: Investigamos cómo asegurar que cada número binario tenga exactamente 4 bits para simular un contador binario.
+   - **Uso de `.zfill(4)`**: Garantiza que cada número binario tenga 4 dígitos, como un contador binario típico.
+     La IA sugirió el uso del método **`.zfill(4)`**, que agrega ceros a la izquierda de un número binario hasta que alcance un tamaño específico, en este caso 4 bits.
+     Esto asegura que los números binarios siempre se representen de manera uniforme, con ceros a la izquierda si es necesario, lo cual es común en sistemas que requieren un formato fijo.
+  
 
 ## Herramientas Tecnológicas Utilizadas 
 
