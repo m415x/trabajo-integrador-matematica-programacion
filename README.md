@@ -1,23 +1,27 @@
 # Tecnicatura Universitaria en Programación - UTN
 
 ## Trabajo Práctico Integrador N° 1
-Integración de las asignaturas Matemática y Programación 1. 
 
-## Descripción de la actividad 
-Contador Binario en Python 
+Integración de las asignaturas Matemática y Programación 1.
 
-## 🟢 Versión original: Contador Binario  
+## Descripción de la actividad
+
+Contador Binario en Python
+
+## 🟢 Versión original: Contador Binario
 
 **Consigna:**  
 Escribir un programa que, usando un ciclo, cuente desde 0 hasta 15 y muestre cada número en su representación binaria.
 Como extensión, se debe incluir un retardo (por ejemplo, con time.sleep) para simular el funcionamiento de un circuito real.
 
 ## Información de entrada
+
 Esta versión no requiere entradas por parte del usuario. El programa cuenta automáticamente desde 0 hasta 15, un rango fijo definido en la consigna.
 
 ## Resolución del problema
 
 Para resolver este ejercicio se utilizaron los siguientes conceptos de programación:
+
 - Se emplea un ciclo **for** para recorrer automáticamente los números del 0 al 15.
 - Se usa la función **bin()** de Python para obtener la representación binaria de cada número.
 - Aplicamos el método **.zfill(4)** para asegurar que cada número binario tenga exactamente 4 bits, simulando un contador binario típico.
@@ -31,66 +35,68 @@ La salida se muestra de forma secuencial (ej. 0000, 0001, 0010, ..., 1111), con 
 
 ## 🟠 Versión 2: Sentido de conteo + Mensaje de bienvenida
 
-Esta versión incorpora una interfaz en consola que presenta un mensaje de bienvenida con colores, y permite al usuario elegir si desea contar de forma ascendente (asc) o 
-descendente (desc). También se solicita el número hasta/dese donde se desea contar. Esto hace que el programa sea más interactivo y configurable.
+Esta versión incorpora una interfaz en consola que presenta un mensaje de bienvenida con colores, y permite al usuario elegir si desea contar de forma ascendente (asc) o descendente (desc). También se solicita el número hasta/dese donde se desea contar. Esto hace que el programa sea más interactivo y configurable.
 
 ## 🔴 Versión 3: Representación tipo LED
 
-En lugar de mostrar solo el número en binario, esta versión incorpora una visualización tipo LED utilizando emojis de "pelotitas". 
+En lugar de mostrar solo el número en binario, esta versión incorpora una visualización tipo LED utilizando emojis de "pelotitas".
 
        -  🟡 representa un bit encendido (1)
        -  ⚫ representa un bit apagado (0)
-       
+
 Esto simula el funcionamiento de un circuito lógico binario, donde cada bit activa o apaga una luz (como ocurre en contadores digitales reales).
 El objetivo es brindar una forma visual e intuitiva de entender cómo se representan los números en binario a nivel físico o electrónico.
 
 ## 🔵 Versión 4: Conversión a Octal y Hexadecimal
 
-Además de mostrar la representación binaria, esta versión permite visualizar también el número en octal y hexadecimal, todo en una sola línea y con distintos colores para cada 
-sistema numérico. Esto enriquece el programa desde un punto de vista didáctico y técnico.
+Además de mostrar la representación binaria, esta versión permite visualizar también el número en octal y hexadecimal, todo en una sola línea y con distintos colores para cada sistema numérico. Esto enriquece el programa desde un punto de vista didáctico y técnico.
 
 ## 🟣 Versión final: Integración total
 
 En esta última versión se integraron todas las funcionalidades desarrolladas en etapas anteriores, creando un único programa completo, interactivo y visualmente amigable.
 El usuario puede personalizar su experiencia eligiendo:
+
 - La dirección del conteo: ascendente (asc) o descendente (desc)
 - El valor inicial o final del conteo
-Si desea visualizar el resultado:
+
+  Si desea visualizar el resultado:
+
 - Solo en binario con representación LED (emojis)
 - O en formato extendido con múltiples sistemas numéricos: decimal, binario, octal y hexadecimal
 
 Además, toda la interfaz está mejorada con colores en la consola, pausas que simulan el ritmo de un circuito real, y una salida ordenada y clara.
-Esta versión representa una síntesis de lo aprendido, combinando interacción con el usuario, lógica binaria, representación visual, y conceptos de sistemas numéricos, 
-logrando así una simulación simple pero educativa de un contador lógico digital en funcionamiento.
-
+Esta versión representa una síntesis de lo aprendido, combinando interacción con el usuario, lógica binaria, representación visual, y conceptos de sistemas numéricos, logrando así una simulación simple pero educativa de un contador lógico digital en funcionamiento.
 
 ## Presentación del proyecto en YouTube
- 🎞️ Link del video: https://www.youtube.com/watch?v=kNnzmHkZLsA
- 
+
+🎞️ [Link del video](https://www.youtube.com/watch?v=kNnzmHkZLsA)
 
 ## Uso de inteligencia artificial en el proyecto
 
 En este proyecto, la inteligencia artificial fue utilizada para optimizar y automatizar varias partes del código. A continuación, se detallan las consultas realizadas y cómo la IA ayudó en la implementación:
 
 1. **Sobrescribir líneas en la terminal**: Consultamos cómo hacer que cada línea ejecutada en la terminal sobrescriba la línea anterior, mejorando la visualización de los procesos en tiempo real.
+
    - **Uso de `\r` (Retorno de Carro)**: Este carácter mueve el cursor al inicio de la línea actual sin avanzar a la siguiente, permitiendo sobrescribir el contenido.
    - **Uso de `print(..., end='')`**: Modificamos la función `print()` para evitar que agregue un salto de línea, permitiendo que el texto se imprima en la misma línea.
 
 2. **Impresión de texto en colores con `colorama`**: Consultamos cómo imprimir textos en diferentes colores en la terminal, facilitando la visualización y destacando los mensajes importantes.
+
    - **Módulo `colorama`**: Permitió resaltar el texto en diferentes colores y estilos, mejorando la legibilidad de los mensajes en la terminal.
 
 3. **Uso del módulo `time` para suspender la ejecución**: Consultamos cómo suspender la ejecución de un hilo durante un período de tiempo determinado, controlando el flujo del programa y mejorando la experiencia del usuario.
+
    - **Función `time.sleep(seg)`**: Permite pausar la ejecución durante el número de segundos especificado, y la IA ayudó a encontrar la forma correcta de implementarlo.
 
 4. **Aplicación del método `.zfill(4)` para simular un contador binario**: Investigamos cómo asegurar que cada número binario tenga exactamente 4 bits para simular un contador binario.
    - **Uso de `.zfill(4)`**: Garantiza que cada número binario tenga 4 dígitos, como un contador binario típico.
      La IA sugirió el uso del método **`.zfill(4)`**, que agrega ceros a la izquierda de un número binario hasta que alcance un tamaño específico, en este caso 4 bits.
      Esto asegura que los números binarios siempre se representen de manera uniforme, con ceros a la izquierda si es necesario, lo cual es común en sistemas que requieren un formato fijo.
-  
 
-## Herramientas tecnológicas utilizadas 
+## Herramientas tecnológicas utilizadas
 
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
+
 <table> <tr> <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" 
 alt="Python Logo" /><br><b>Python</b></td> <td align="center"><img 
 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="60" 
@@ -125,6 +131,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - CapCut: Software de edición de video para recortar, agregar texto y mejorar la presentación final.
 
 ## Integrantes del equipo
+
 **Comisión:** N° 8
 
 <table border="1">

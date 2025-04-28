@@ -9,7 +9,6 @@ from colorama import init, Fore, Back, Style
 
 # ========== Definición de funciones ==========
 
-
 def bienvenida():
     """
     Imprime un mensaje de bienvenida al usuario y explica las instrucciones para usar el programa.
@@ -32,49 +31,63 @@ def bienvenida():
         Fore.RED  # Letras rojas
         + """
 Elija una opción:
-[1] Contar hacia adelante
-[2] Contar hacia atrás
+[asc] Contar hacia adelante
+[desc] Contar hacia atrás
         """
         + Style.RESET_ALL  # Resetea el estilo a su valor por defecto
     )
 
 
-def contar():
-    """
-    Utiliza un bucle for para iterar desde 0 hasta 15, imprimiendo cada número en la misma línea.
-    Utiliza la función sleep para pausar la ejecución durante 1 segundo entre cada número.
-    """
-    for i in range(15 + 1):
-        print(f"\rContando...{i}", end="")  # Imprime la actualización en la misma línea
-        sleep(1)  # Pausa de 1 segundo entre cada número
-
-
-# Opcional
-def sentido_contar():
+def orden_y_rango():
     """
     Permite al usuario elegir entre contar hacia adelante o hacia atrás.
     Si elige contar hacia adelante, se le pide que ingrese un número hasta donde desea contar.
     Si elige contar hacia atrás, se le pide que ingrese un número desde donde desea contar.
-    El sentido de la cuenta se representa como 1 para adelante y -1 para atrás.
+    El sentido de la cuenta se representa como 'asc' para adelante y 'desc' para atrás.
     """
-    sentido = int(input("> "))
+    sentido = input("> ")
 
-    if sentido == 1:
+    if sentido == "asc":
         print("\nElija el número hasta donde desea contar:")
         numero = int(input("> "))
-    elif sentido == 2:
+        rango = range(numero + 1)
+
+    elif sentido == "desc":
         print("\nElija el número desde donde desea contar:")
         numero = int(input("> "))
-        sentido = -1
+        rango = range(numero, -1, -1)
 
-    return sentido, numero  # Devuelve el sentido de la cuenta y el número elegido
+    return numero, rango  # Devuelve el rango de iteración y el numero ingresado
 
 
-# Opcional: Función que permite elegir entre contar en binario, decimal, octal o hexadecimal.
-def funcion_4():
-    pass
+def contador_binario(numero, rango):  
+    print()
+    for dec in rango:
+        longitud_maxima_binario = len(bin(numero)[2:])
+        binario = decimal_a_binario(dec).zfill(longitud_maxima_binario)
+        longitud_maxima_decimal = str(numero)
+
+        print(f"\r{binario} = {str(dec).zfill(len(longitud_maxima_decimal))}", end="")
+        sleep(1)        
+
+
+def decimal_a_binario(num):
+    if num == 0:
+        return "0"
+    bits = []
+    while num > 0:
+        bits.insert(0, str(num % 2))
+        num = num // 2
+    return ''.join(bits)
+
+
+def main():
+    bienvenida()
+    numero, rango = orden_y_rango()
+    contador_binario(numero, rango)
 
 
 # ========== Programa principal ==========
-bienvenida()
-contar()
+
+if __name__ == "__main__":
+    main()
