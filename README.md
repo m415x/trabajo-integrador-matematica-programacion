@@ -80,7 +80,22 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - Git: Sistema de control de versiones utilizado para gestionar el progreso del proyecto y su historial.
 
 **Herramientas para grabación y edición de video**
-<table> <tr> <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/OBS_Studio_Logo.svg" width="60" alt="OBS Logo" /><br><b>OBS Studio</b></td> <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Zoom_Communications_Logo.svg" width="60" alt="Zoom Logo" /><br><b>Zoom</b></td> <td align="center"><img src="https://seeklogo.com/images/C/capcut-logo-0D90F6CE4E-seeklogo.com.png" width="60" alt="CapCut Logo" /><br><b>CapCut</b></td> </tr> </table>
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/OBS_Studio_Logo.svg" width="60" alt="OBS Logo" /><br>
+      <b>OBS Studio</b>
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Zoom_Communications_Logo.svg" width="60" alt="Zoom Logo" /><br>
+      <b>Zoom</b>
+    </td>
+    <td align="center">
+      <img src="https://seeklogo.com/images/C/capcut-logo-0D90F6CE4E-seeklogo.com.png" width="60" alt="CapCut Logo" /><br>
+      <b>CapCut</b>
+    </td>
+  </tr>
+</table>
 
 - OBS Studio: Utilizado para grabar la ejecución del programa y la interfaz.
 - Zoom: Herramienta auxiliar para grabar pantalla o compartir explicaciones en vivo.
@@ -108,12 +123,12 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
       <td><a href="https://www.linkedin.com/in/lahozcristian/">Lahoz Cristian Daniel</a></td>
     </tr>
     <tr>
-      <td>Ariana Maldonado</td>
+      <td>Maldonado Ariana</td>
       <td><img src="https://media.licdn.com/dms/image/v2/D4D03AQEthcHd_8VwPQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727565461008?e=1751500800&v=beta&t=SL8JhMPEWTTspykjb_oLNzr40hX6IiA2AXXd-B_f-wI" alt="Foto Ariana" width="100"></td>
       <td><a href="https://www.linkedin.com/in/ariana-maldonado/">Ariana Maldonado</a></td>
     </tr>
     <tr>
-      <td>Yanela Mubilla</td>
+      <td>Mubilla Yanela</td>
       <td><img src="https://media.licdn.com/dms/image/v2/D4D03AQHihWsPc19THw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730723695846?e=1751500800&v=beta&t=MpmBxO55WgjRoagnGVWPyoWD3WjylKQpXTzULaTI0Kw" alt="Foto Yanela" width="100"></td>
       <td><a href="https://www.linkedin.com/in/yanela-mubilla-683aa3336/">Yanela Mubilla</a></td>
     </tr>
