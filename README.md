@@ -68,32 +68,8 @@ logrando así una simulación simple pero educativa de un contador lógico digit
 
 ## Uso de Inteligencia Artificial
 
-### Sobrescribir líneas en la terminal
-Consultamos cómo hacer para que, en la terminal, cada línea que se esté ejecutando sobrescriba la línea anterior. Implementamos dos métodos clave:
 
-1. **`\r` (Retorno de Carro)**: Este carácter mueve el cursor al principio de la línea actual, sin avanzar a la siguiente, permitiendo sobrescribir el contenido de la misma línea.
-   
-2. **`print(..., end='')`**: Normalmente, `print()` agrega un salto de línea al final. Al utilizar `end=''`, evitamos el salto de línea y conseguimos que el texto se imprima en la misma línea.
 
-Combinando ambos métodos, logramos actualizar la línea sin agregar nuevas líneas, como si estuviéramos borrando y escribiendo de nuevo.
-
-**Código de ejemplo**:
-
-```python
-import time
-
-for i in range(5):
-   print('\rProcesando... %d' % i, end='')  # Imprime la actualización en la misma línea
-   time.sleep(1)
-
-print('\rProcesamiento completado!')  # Imprime la frase final y se desplaza al final de la línea
-
-3. **Imprimir texto en diferentes colores con colorama**
-Consultamos cómo imprimir textos en diferentes colores en la terminal utilizando el módulo colorama. Este módulo nos permite resaltar textos en diversos colores, mejorando la visualización y facilitando la interpretación de los mensajes en la terminal.
-
-Importaciones:
-- Módulo **time** función _sleep(seg)_ suspende la ejecución del hilo que lo invoca por el número de segundos dado. El argumento puede ser un número de punto flotante para indicar un tiempo de suspensión más preciso. El tiempo de suspensión real puede ser menor que el solicitado porque cualquier señal detectada terminará la función sleep() siguiendo la rutina de captura de la señal. El tiempo de suspensión también puede ser más largo que el solicitado por una cantidad arbitraria debido a la planificación de otra actividad en el sistema.
-- Modulo **colorama** permite imprimir textos en colores en la salida de la terminal o consola, incluyendo el fondo o estilo del texto, en múltiples plataformas. En la mayoría de las terminales el módulo utiliza internamente las secuencias de escape ANSI o bien las funciones de la API del sistema en Windows para obtener el mismo resultado.
 
 ## Herramientas Tecnológicas Utilizadas 
 
