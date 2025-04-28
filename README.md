@@ -6,7 +6,7 @@ Integración de las asignaturas Matemática y Programación 1.
 ## Descripción de la Actividad 
 Contador Binario en Python 
 
-**🟢 Versión Original: Contador Binario**   
+## 🟢 Versión Original: Contador Binario  
 
 **Consigna:**  
 Escribir un programa que, usando un ciclo, cuente desde 0 hasta 15 y muestre cada número en su representación binaria.
@@ -16,6 +16,7 @@ Como extensión, se debe incluir un retardo (por ejemplo, con time.sleep) para s
 Esta versión no requiere entradas por parte del usuario. El programa cuenta automáticamente desde 0 hasta 15, un rango fijo definido en la consigna.
 
 ## Resolución del problema
+
 Para resolver este ejercicio se utilizaron los siguientes conceptos de programación:
 - Se emplea un ciclo **for** para recorrer automáticamente los números del 0 al 15.
 - Se usa la función **bin()** de Python para obtener la representación binaria de cada número.
@@ -24,16 +25,19 @@ Para resolver este ejercicio se utilizaron los siguientes conceptos de programac
 - Se valida que el conteo se mantenga dentro del rango de 0 a 15, respetando la consigna original.
 
 ## Información de Salida
+
 El programa imprime por pantalla cada número del 0 al 15 en su representación binaria de 4 bits.
 La salida se muestra de forma secuencial (ej. 0000, 0001, 0010, ..., 1111), con una pausa de 1 segundo entre cada número, para permitir visualizar el conteo en tiempo real.
 
  🎞️ Link del video:
 
-🟠 **Versión 2: Sentido de conteo + Mensaje de bienvenida**
+## 🟠 Versión 2: Sentido de conteo + Mensaje de bienvenida
+
 Esta versión incorpora una interfaz en consola que presenta un mensaje de bienvenida con colores, y permite al usuario elegir si desea contar de forma ascendente (asc) o 
 descendente (desc). También se solicita el número hasta/dese donde se desea contar. Esto hace que el programa sea más interactivo y configurable.
 
-🔴 **Versión 3: Representación tipo LED**
+## 🔴 Versión 3: Representación tipo LED
+
 En lugar de mostrar solo el número en binario, esta versión incorpora una visualización tipo LED utilizando emojis de "pelotitas". 
 
        -  🟡 representa un bit encendido (1)
@@ -42,11 +46,13 @@ En lugar de mostrar solo el número en binario, esta versión incorpora una visu
 Esto simula el funcionamiento de un circuito lógico binario, donde cada bit activa o apaga una luz (como ocurre en contadores digitales reales).
 El objetivo es brindar una forma visual e intuitiva de entender cómo se representan los números en binario a nivel físico o electrónico.
 
-🔵 **Versión 4: Conversión a Octal y Hexadecimal**
+## 🔵 Versión 4: Conversión a Octal y Hexadecimal
+
 Además de mostrar la representación binaria, esta versión permite visualizar también el número en octal y hexadecimal, todo en una sola línea y con distintos colores para cada 
 sistema numérico. Esto enriquece el programa desde un punto de vista didáctico y técnico.
 
-🟣 **Versión final: Integración total**
+## 🟣 Versión final: Integración total
+
 En esta última versión se integraron todas las funcionalidades desarrolladas en etapas anteriores, creando un único programa completo, interactivo y visualmente amigable.
 El usuario puede personalizar su experiencia eligiendo:
 - La dirección del conteo: ascendente (asc) o descendente (desc)
@@ -59,7 +65,7 @@ Además, toda la interfaz está mejorada con colores en la consola, pausas que s
 Esta versión representa una síntesis de lo aprendido, combinando interacción con el usuario, lógica binaria, representación visual, y conceptos de sistemas numéricos, 
 logrando así una simulación simple pero educativa de un contador lógico digital en funcionamiento.
 
-**Herramientas Tecnológicas Utilizadas**    
+## Herramientas Tecnológicas Utilizadas 
 
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 <table> <tr> <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" 
@@ -72,7 +78,8 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - Visual Studio Code: Entorno de desarrollo usado para escribir, depurar y ejecutar el código.
 - Git: Sistema de control de versiones utilizado para gestionar el progreso del proyecto y su historial.
 
-**Herramientas para grabación y edición de video**
+## Herramientas para grabación y edición de video
+
 <table>
   <tr>
     <td align="center">
@@ -94,7 +101,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - Zoom: Herramienta auxiliar para grabar pantalla o compartir explicaciones en vivo.
 - CapCut: Software de edición de video para recortar, agregar texto y mejorar la presentación final.
 
-**Integrantes del Equipo** -   
+## Integrantes del Equipo
 **Comisión:** N° 8
 
 <table border="1">
