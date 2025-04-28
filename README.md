@@ -29,9 +29,6 @@ Para resolver este ejercicio se utilizaron los siguientes conceptos de programac
 El programa imprime por pantalla cada número del 0 al 15 en su representación binaria de 4 bits.
 La salida se muestra de forma secuencial (ej. 0000, 0001, 0010, ..., 1111), con una pausa de 1 segundo entre cada número, para permitir visualizar el conteo en tiempo real.
 
-## Presentación del Proyecto en YouTube
- 🎞️ Link del video: https://www.youtube.com/watch?v=kNnzmHkZLsA
-
 ## 🟠 Versión 2: Sentido de conteo + Mensaje de bienvenida
 
 Esta versión incorpora una interfaz en consola que presenta un mensaje de bienvenida con colores, y permite al usuario elegir si desea contar de forma ascendente (asc) o 
@@ -65,6 +62,11 @@ El usuario puede personalizar su experiencia eligiendo:
 Además, toda la interfaz está mejorada con colores en la consola, pausas que simulan el ritmo de un circuito real, y una salida ordenada y clara.
 Esta versión representa una síntesis de lo aprendido, combinando interacción con el usuario, lógica binaria, representación visual, y conceptos de sistemas numéricos, 
 logrando así una simulación simple pero educativa de un contador lógico digital en funcionamiento.
+
+
+## Presentación del Proyecto en YouTube
+ 🎞️ Link del video: https://www.youtube.com/watch?v=kNnzmHkZLsA
+ 
 
 ## Uso de Inteligencia Artificial en el Proyecto
 
