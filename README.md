@@ -43,8 +43,10 @@ descendente (desc). También se solicita el número hasta/dese donde se desea co
 
 🔴 **Versión 3: Representación tipo LED**
 En lugar de mostrar solo el número en binario, esta versión incorpora una visualización tipo LED utilizando emojis de "pelotitas". 
+
        -  🟡 representa un bit encendido (1)
        -  ⚫ representa un bit apagado (0)
+       
 Esto simula el funcionamiento de un circuito lógico binario, donde cada bit activa o apaga una luz (como ocurre en contadores digitales reales).
 El objetivo es brindar una forma visual e intuitiva de entender cómo se representan los números en binario a nivel físico o electrónico.
 
@@ -65,7 +67,7 @@ Además, toda la interfaz está mejorada con colores en la consola, pausas que s
 Esta versión representa una síntesis de lo aprendido, combinando interacción con el usuario, lógica binaria, representación visual, y conceptos de sistemas numéricos, 
 logrando así una simulación simple pero educativa de un contador lógico digital en funcionamiento.
 
-** Herramientas Tecnológicas Utilizadas **
+**Herramientas Tecnológicas Utilizadas**
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 <table> <tr> <td align="center"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="60" 
 alt="Python Logo" /><br><b>Python</b></td> <td align="center"><img 
@@ -76,6 +78,39 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - Python: Lenguaje de programación utilizado para construir toda la lógica del contador y sus variantes.
 - Visual Studio Code: Entorno de desarrollo usado para escribir, depurar y ejecutar el código.
 - Git: Sistema de control de versiones utilizado para gestionar el progreso del proyecto y su historial.
+
+**Herramientas para grabación y edición de video**
+<table> <tr> <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/OBS_Studio_Logo.svg" width="60" alt="OBS Logo" /><br><b>OBS Studio</b></td> <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Zoom_Communications_Logo.svg" width="60" alt="Zoom Logo" /><br><b>Zoom</b></td> <td align="center"><img src="https://seeklogo.com/images/C/capcut-logo-0D90F6CE4E-seeklogo.com.png" width="60" alt="CapCut Logo" /><br><b>CapCut</b></td> </tr> </table>
+
+- OBS Studio: Utilizado para grabar la ejecución del programa y la interfaz.
+- Zoom: Herramienta auxiliar para grabar pantalla o compartir explicaciones en vivo.
+- CapCut: Software de edición de video para recortar, agregar texto y mejorar la presentación final.
+
+**Integrantes del Equipo**
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Foto</th>
+      <th>LinkedIn</th>
+      <th>Rol</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Laura Génesis Barboza</td>
+      <td><img src="https://media.licdn.com/dms/image/v2/D4D03AQHihWsPc19THw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730723695846?e=1751500800&v=beta&t=MpmBxO55WgjRoagnGVWPyoWD3WjylKQpXTzULaTI0Kw" alt="Foto Yanela" width="100"></td>
+      <td><a href="https://www.linkedin.com/in/yanela-mubilla-683aa3336/</a></td>
+      <td>Analista de Datos</td>
+    </tr>
+    <tr>
+      <td>Ariana Maldonado</td>
+      <td><img src="https://media.licdn.com/dms/image/D4D03AQHT0rUxfgAYmA/profile-displayphoto-shrink_800_800/0/1717377885375?e=1723075200&v=beta&t=JLmCbIBHmvBNMbdoTTKI-_OXlnMa4RKKv43wHZkhL_Q" alt="Foto Ariana" width="100"></td>
+      <td><a href="https://www.linkedin.com/in/ariana-maldonado/">Ariana Maldonado</a></td>
+      <td>Analista de Datos</td>
+    </tr>
+  </tbody>
+</table>
 
 
 
