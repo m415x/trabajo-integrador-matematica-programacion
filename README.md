@@ -66,10 +66,19 @@ Además, toda la interfaz está mejorada con colores en la consola, pausas que s
 Esta versión representa una síntesis de lo aprendido, combinando interacción con el usuario, lógica binaria, representación visual, y conceptos de sistemas numéricos, 
 logrando así una simulación simple pero educativa de un contador lógico digital en funcionamiento.
 
-## Uso de Inteligencia Artificial
+## Uso de Inteligencia Artificial en el Proyecto
 
+En este proyecto, la inteligencia artificial fue utilizada para optimizar y automatizar varias partes del código. A continuación, se detallan las consultas realizadas y cómo la IA ayudó en la implementación:
 
+1. **Sobrescribir líneas en la terminal**: Consultamos cómo hacer que cada línea ejecutada en la terminal sobrescriba la línea anterior, mejorando la visualización de los procesos en tiempo real.
+   - **Uso de `\r` (Retorno de Carro)**: Este carácter mueve el cursor al inicio de la línea actual sin avanzar a la siguiente, permitiendo sobrescribir el contenido.
+   - **Uso de `print(..., end='')`**: Modificamos la función `print()` para evitar que agregue un salto de línea, permitiendo que el texto se imprima en la misma línea.
 
+2. **Impresión de texto en colores con `colorama`**: Consultamos cómo imprimir textos en diferentes colores en la terminal, facilitando la visualización y destacando los mensajes importantes.
+   - **Módulo `colorama`**: Permitió resaltar el texto en diferentes colores y estilos, mejorando la legibilidad de los mensajes en la terminal.
+
+3. **Uso del módulo `time` para suspender la ejecución**: Consultamos cómo suspender la ejecución de un hilo durante un período de tiempo determinado, controlando el flujo del programa y mejorando la experiencia del usuario.
+   - **Función `time.sleep(seg)`**: Permite pausar la ejecución durante el número de segundos especificado, y la IA ayudó a encontrar la forma correcta de implementarlo.
 
 ## Herramientas Tecnológicas Utilizadas 
 
@@ -146,9 +155,3 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
     </tr>
   </tbody>
 </table>
-
-____________________________________________________________________________
-
-
-
-
