@@ -109,7 +109,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
     </tr>
     <tr>
       <td>Ariana Maldonado</td>
-      <td><img src="https://media.licdn.com/dms/image/D4D03AQHT0rUxfgAYmA/profile-displayphoto-shrink_800_800/0/1717377885375?e=1723075200&v=beta&t=JLmCbIBHmvBNMbdoTTKI-_OXlnMa4RKKv43wHZkhL_Q" alt="Foto Ariana" width="100"></td>
+      <td><img src="https://media.licdn.com/dms/image/v2/D4D03AQEthcHd_8VwPQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727565461008?e=1751500800&v=beta&t=SL8JhMPEWTTspykjb_oLNzr40hX6IiA2AXXd-B_f-wI" alt="Foto Ariana" width="100"></td>
       <td><a href="https://www.linkedin.com/in/ariana-maldonado/">Ariana Maldonado</a></td>
     </tr>
     <tr>
