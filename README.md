@@ -6,8 +6,9 @@ Integración de las asignaturas Matemática y Programación 1.
 ## Descripción de la Actividad 
 **Actividad:** Contador Binario en Python 
 
-🟢 **Versión Original: Contador Binario**
- **Consigna:**  
+🟢 **Versión Original: Contador Binario**   
+
+**Consigna:**  
 Escribir un programa que, usando un ciclo, cuente desde 0 hasta 15 y muestre cada número en su representación binaria.
 Como extensión, se debe incluir un retardo (por ejemplo, con time.sleep) para simular el funcionamiento de un circuito real.
 
