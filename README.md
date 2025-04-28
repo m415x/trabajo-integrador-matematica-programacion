@@ -15,7 +15,7 @@ Como extensión, se debe incluir un retardo (por ejemplo, con time.sleep) para s
 ## Información de Entrada
 Esta versión no requiere entradas por parte del usuario. El programa cuenta automáticamente desde 0 hasta 15, un rango fijo definido en la consigna.
 
-## Resolución del problema
+## Resolución del Problema
 
 Para resolver este ejercicio se utilizaron los siguientes conceptos de programación:
 - Se emplea un ciclo **for** para recorrer automáticamente los números del 0 al 15.
@@ -52,7 +52,7 @@ El objetivo es brindar una forma visual e intuitiva de entender cómo se represe
 Además de mostrar la representación binaria, esta versión permite visualizar también el número en octal y hexadecimal, todo en una sola línea y con distintos colores para cada 
 sistema numérico. Esto enriquece el programa desde un punto de vista didáctico y técnico.
 
-## 🟣 Versión final: Integración total
+## 🟣 Versión final: Integración Total
 
 En esta última versión se integraron todas las funcionalidades desarrolladas en etapas anteriores, creando un único programa completo, interactivo y visualmente amigable.
 El usuario puede personalizar su experiencia eligiendo:
@@ -79,7 +79,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" wi
 - Visual Studio Code: Entorno de desarrollo usado para escribir, depurar y ejecutar el código.
 - Git: Sistema de control de versiones utilizado para gestionar el progreso del proyecto y su historial.
 
-## Herramientas para grabación y edición de video
+## Herramientas para Grabación y Edición de video
 
 <table>
   <tr>
